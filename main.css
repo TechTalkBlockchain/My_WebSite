@@ -1,0 +1,738 @@
+
+
+
+html {
+
+scroll-behavior:smooth;
+
+ }
+
+
+
+ body { 
+ margin:0;
+  padding:0; 
+  background:white; 
+  width:100%;
+ } 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* Header */ 
+ 
+ 
+ 
+ .header {
+  background-image:url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+ font-style:italic ; 
+  width:100%;
+  text-align:center;
+   color:white;
+   font-weight:bolder;
+   font-family:serif;
+   font-size:50px;
+   background-attachment:fixed;
+   background-size:cover;
+  background-repeat:no-repeat ; 
+   
+  background-color:rgba(0,0,0,0.3);
+         background-blend-mode:color;
+   }
+   
+   
+
+   
+   
+  .header p { 
+  font-size:20px; 
+  font-family:cursive; 
+  
+  } 
+  
+  
+  @media screen and (max-width:768px) 
+  { 
+  .header { 
+      font-size:25px;
+       padding-top:15%; 
+   } 
+    
+   
+   } 
+   
+   
+   
+   .order { 
+   padding:20px; 
+   border:1.5px solid white; 
+   background:none ; 
+   color:white;
+    font-weight:bold;
+   cursor:pointer ;
+   outline:none; 
+   transition:all 1s;
+   font-family:serif; 
+   
+   } 
+   
+   
+   .order:hover { 
+   background:white;
+   color:black;
+   transform:scale(1.005);
+   
+    } 
+    
+    
+    .order:active { 
+    
+    background:white;
+    color:black;
+    transform:scale(1.005);
+    
+     } 
+     
+     
+         
+         
+         /* Navbar */
+         
+         
+         
+         
+          .nav { 
+          position:fixed;
+          top:0;
+           z-index:5;
+          margin:auto;
+          
+          width:100%; 
+          text-align:center; 
+          background:black ; 
+          overflow:hidden;
+          
+          
+          } 
+          
+          
+        .navlist { 
+        background:none;
+         color:white;
+        padding:12px;
+       border:none;
+      outline:none;
+      margin:0px;
+      font-family:cursive;
+      
+     }
+     
+      @media screen and (max-width:768px)
+     { 
+     .navlist {
+      
+       font-size:12px;
+        }
+        } 
+        
+        .navlist:hover, .navlist:active
+         {
+          border-bottom:2px solid white;
+          
+          }
+          
+          
+          
+          fieldset {
+              width:50%;
+          }
+          
+    /* Intro */ 
+    
+    
+    .plate {
+     width:45%;
+      float:left;
+       } 
+    
+    
+    .plateside { 
+    float:left; 
+    margin:5%;
+      width:45%; 
+      text-align:left;
+      line-height:15px;
+    } 
+    
+    
+    legend {
+            text-align:center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .con { 
+    width:100%;
+     overflow:auto;
+      background:white; 
+      text-align:center;
+      }
+      
+       .con h1 { 
+       font-family:cursive;
+        font-size:40px;
+    font-style:italic ;
+    font-weight:bolder ;
+    color:orange;
+
+    } 
+    
+    .con p { 
+    color:gray; 
+    font-size:10px;
+     font-family:serif;
+     text-align:left;
+       } 
+    
+    @media screen and (min-width:768px) { 
+    .con h1
+     {
+      font-family:cursive;
+       font-size:55px; 
+       
+       }
+       
+     .con p { 
+     color:gray;
+      font-size:15px; 
+       font-family:serif;
+       }
+        } 
+        
+        
+        .book {
+         padding:10px;
+          background:orange;
+           color:white; 
+         border:1px solid orange; 
+         transition:all 1s;
+          cursor:pointer ;
+  transform-style:preserve 3d;
+           outline:none; 
+           
+           }
+           
+           
+      .con .book {
+          padding:5px;
+          
+      }     
+           
+           
+           
+           
+            .book:hover {
+       transform:scale(1.009);
+        
+        } 
+    
+    
+    
+       .food { 
+          
+          text-align:center;
+           background-color:rgba(0,0,0,0.5);
+         background-blend-mode:color;
+           background-image: url("https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+        background-size:cover; 
+         background-repeat:no-repeat ;
+         background-attachment:fixed;
+           } 
+           
+           
+      .food h1 
+             { 
+      color: aliceblue;
+       font-weight: 
+       bolder; 
+       font-size: 55px; 
+       font-family:serif;
+       font-style:italic  ;
+       } 
+       
+       
+     
+       
+       
+       @media screen and (max-width:475) 
+       { 
+   .food h1 { 
+   font-size: 50px;
+   
+    } 
+    
+    } 
+    
+    
+    .food p { 
+    color: rgb(255, 255, 255);
+     font-weight: bold;
+     font-size: 20px;
+     font-style: oblique;
+     font-family:cursive
+      }
+      
+   
+        
+    .discover { 
+    
+    padding:15px;
+   background:transparent;
+  border: 2px solid white;
+   color: white; 
+   font-weight: bold;
+    transition: all 1s;
+     outline: none; 
+     cursor:pointer ;
+     } 
+     
+   .discover:hover { 
+   background:white;
+    color:black;
+  transform:scale(1.005); 
+  } 
+  
+  .discover:active { 
+  background:white;
+   color:black; transform:scale(1.0);
+   
+    } 
+    
+    .container {
+     width: 100%;
+     text-align:center ;
+     height:auto;
+      overflow: auto;
+      color:white; 
+  background:white;
+      }
+      
+      
+      
+      .container h1 {
+          font-family:cursive;
+        font-size:40px;
+    font-style:italic ;
+    font-weight:bolder ;
+    color:orange;
+      }
+      
+      ul {
+          list-style-type:none;
+          margin:0;
+          padding:0;
+          box-shadow:0.05px 0.05px 10px lightgray;
+          width:90%;
+          margin:auto;
+        
+          
+      }
+      
+      
+      @media screen qnd (min-width:960px) {
+          ul {
+              width:70%;
+          }
+      }
+      
+      
+      li {
+          display:inline-block ;
+          padding:15px;
+          color:gray;  
+          outline:none; 
+      }
+      
+      
+      li a {
+        outline:none; 
+        text-decoration:none;
+        
+        
+      }
+      
+     li:hover {
+         border-bottom:2px solid orange;
+         color:orange;
+     }  
+      
+      
+    
+     .special { 
+    
+    
+    width:30%;
+    height: auto; 
+    float: left;
+    margin:1.5%; 
+    background: white; 
+    text-align: center;
+    transition: all 1s;
+     color:lightgrey;
+     box-shadow:0.05px 0.05px 5px 0px lightgray;
+    
+    } 
+    
+    .special h1 { 
+    color: orange; 
+    transform: rotateZ(-5deg);  text-shadow: 0.5px 0.5px 2px gray; 
+    font-size:45px;
+    font-family:cursive;
+    font-style:italic;
+    } 
+    
+    .special h3 { 
+    color: rgb(5, 5, 5); 
+    
+    } 
+    
+    .special p { 
+    
+     color: rgb(114, 111, 111); 
+     
+     
+     }
+     
+      @media screen and (max-width:719px) { 
+      .special { 
+      
+      width:80%; 
+      margin-left:9%;
+      margin-right: 7%;
+       margin-top: 2%;
+      margin-bottom: 2%;
+       
+       } 
+       } 
+    
+    
+    .special:hover {
+    
+     transform: scale(1.005); 
+    box-shadow:0.2px 0.2px 10px 0px lightgray;
+     
+    } 
+    
+    
+    .special:active { 
+    
+    box-shadow:0.2px 0.2px 10px 0px lightgray;
+     transform: scale(1.1); 
+    } 
+    
+    .special img { 
+    width:100%; 
+    background: white;
+   border-radius: 5px 5px 5px 5px; 
+   height:50%;
+   } 
+   
+  
+    .price {
+     padding: 12px;
+     color:white;
+     font-weight:bolder;
+     background:orange; 
+     border: none;
+     outline:none;
+     
+      }
+      
+     .buying {
+      padding:15px;
+       background:none;
+      color:black; 
+      border:none;
+    transition:all 1s; transform-style:preserve 3d;
+     
+     cursor:pointer;
+     outline:none;
+     
+      }
+      
+     .buying:hover {
+     outline:none;
+     transform:translateX(5px);
+     color:orange;
+      } 
+      
+      .about {
+          width:100%;
+          overflow:auto;
+          background-image:url("http://posneg.co/wp-content/uploads/2019/06/styled-composition-decorative-corner-glass-balls-baubles-and-holly-tree-dark-green-leaves-red-berries-branches-on-white-table-background-flat-lay-top-view-winter-pattern-pm-berry-sty.jpg");
+          background-size:cover;
+          background-repeat:no-repeat ;
+          
+      }
+      
+        .about h1 { 
+       font-family:cursive;
+        font-size:40px;
+    font-style:italic ;
+    font-weight:bolder ;
+    color:orange;
+    } 
+    
+    .about p { 
+    color:gray; 
+    font-size:15px;
+     font-family:serif;
+      
+     } 
+    
+      
+  
+  
+  
+  
+  
+   .foodland {
+       float:left;
+       width:45%;
+       margin:2.5%;
+       text-align:center;
+       
+   }
+   
+   
+  
+   
+      .about img {
+       margin-right:0;
+       width:50%;
+       text-align:center;
+       float:left;
+       margin-top:10%;
+       }
+  
+  @media screen and (max-width:768px) {
+     .about img {
+         width:100%;
+         margin-top:5%;
+         margin-left:0;
+         margin-right:0;
+         margin-bottom:20%;
+         
+     }
+      
+      
+      .foodland {
+          width:90%;
+          margin-right:5%;
+          margin-left:5%;
+          margin-bottom:10%;
+          text-align:center;
+          line-height:20px;
+          
+          
+      }
+  
+      }
+  
+  
+  
+  
+  fieldset {
+      border:none;
+      margin:auto;
+      border-top:1.5px solid orange;
+  }
+  
+  
+  .container fieldset {
+      width:50%;
+      margin:auto;
+  }
+  
+  .foodland fieldset {
+      width:50%;
+      margin:auto;
+  }
+  
+  
+  
+  
+      .container p { 
+    color:gray; 
+    font-size:15px;
+     font-family:serif;
+      
+     } 
+     
+     .gallery {
+
+         width: 100%;
+     text-align:center ;
+     height:auto;
+      overflow: auto;
+      
+  background:white;
+         
+     }
+     
+     
+         .gallery p { 
+    color:gray; 
+    font-size:15px;
+     font-family:serif;
+      
+     } 
+     
+     
+     
+     .gallery img {
+         width:45%;
+         margin-bottom:3%;
+        margin-left:1%;
+        margin-right:1%;
+         border:2px solid lightgray;
+         opacity:0.8;
+         transition:all 0.5s;
+              }
+              
+              
+              @media screen and (max-width:760px) {
+                  .gallery img {
+                      width:80%;
+                      margin:auto;
+                  }
+              }
+              
+              
+              
+              
+     
+     .gallery fieldset {
+         width:50%;
+     }
+     
+     
+     .gallery h1 {
+         font-family:cursive;
+        font-size:40px;
+    font-style:italic ;
+    font-weight:bolder ;
+    color:orange;
+    
+     }
+     
+     .gallery img:hover {
+         opacity:1.0;
+         transform:scale(1.05);
+     }
+     
+     .more {
+         width: 100%;
+     text-align:center ;
+     height:auto;
+      overflow: auto;
+      
+  background:white;
+         
+     }
+     
+     .more fieldset {
+         width:50%;
+     }
+     
+     .more h1 {
+         
+
+         font-family:cursive;
+        font-size:40px;
+    font-style:italic ;
+    font-weight:bolder ;
+    color:orange;
+    
+     }
+     
+     .more p {
+    color:gray; 
+    font-size:15px;
+     font-family:serif;
+      
+     } 
+     
+     
+     .morefood {
+         width:48%;
+         box-shadow:1px 1px 5px 2px lightgray;
+         height:100px;
+         float:left;
+         margin:1%;
+         text-align:left;
+         overflow:auto;
+         
+         
+         
+     }
+     
+     @media screen and (max-width:767px) {
+         .morefood {
+             width:90%;
+             margin-left:5%;
+             margin-bottom:5%;
+         }
+     }
+     
+     
+          @media screen and (min-width:960px) {
+         .morefood {
+             width:40%;
+             margin-left:7%;
+             
+             
+         }
+     }
+        
+     .hey h1 {
+         font-family:cursive;
+        font-size:40px;
+    font-style:italic ;
+    font-weight:bolder ;
+    color:orange;
+     }
+     
+     
+     .hey {
+         text-align:center;
+     }
+     
+     
+     .morefood img {
+         width:30%;
+         height:100%;
+         border-right:0.5px solid lightgray;
+     }
+     
+     
+     .foodinfo, .morefood img {
+         float:left;
+         
+     }
+     
+     .foodinfo {
+         padding-left:15px;
+     }
+  
+     
+     
+     
+      
+      
